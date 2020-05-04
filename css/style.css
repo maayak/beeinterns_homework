@@ -1,0 +1,269 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Abel', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  color: #black;
+}
+
+.header__top {
+  height: 89px;
+}
+
+.header__top-inner {
+  margin-left: 50px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 17px;
+}
+
+.menu__items {
+  display: flex;
+  padding-top: 12px;
+}
+
+.menu__item {
+  margin-right: 40px;
+  width: 154px;
+  height: 31px;
+  background-color: #D8D8D8;
+}
+
+.menu__last-item {
+  margin-right: 0;
+}
+
+.header__content {
+  height: 450px;
+  background-color: #D8D8D8;
+}
+
+.header__content-text {
+  font-size: 60px;
+}
+
+.header__content-lorem {
+  font-size: 36px;
+}
+
+.header__content-item {
+  padding-top: 29px;
+}
+
+.content-btn {
+  width: 283px;
+  height: 60px;
+  border: none;
+  font-size: 26px;
+  font-family: Abel, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.content-btn-white {
+  color: #000;
+  background-color: #fff;
+  margin-right: 25px;
+}
+
+.content-btn-black {
+  color: #fff;
+  background-color: #000;
+}
+
+.header__content-items {
+  display: flex;
+}
+
+.content-btn:active,
+.content-btn:focus {
+  outline: none;
+}
+
+.header__content-section {
+  padding-left: 130px;
+  padding-top: 120px;
+}
+
+.header__content-text {
+  height: 76px;
+}
+
+.header__content-lorem {
+  height: 46px;
+}
+
+.header__article {
+  height: 667px;
+}
+.header__article-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__article-rectangle {
+  width: 380px;
+  height: 244px;
+  background-color: #D8D8D8;
+}
+.header__article-main {
+  width: 380px;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.header__article-description {
+  width: 380px;
+  font-size: 18px;
+  line-height: 30px;
+  padding-bottom: 40px;
+}
+.header__article-block {
+  padding-right: 40px;
+  padding-top: 80px;
+}
+.header__article-text {
+  padding-top: 30px;
+}
+.header__article-read {
+  color: #787878;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.sign {
+  height: 395px;
+  background-color: #D8D8D8;
+}
+.sign__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign__up {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sign__box-text {
+  font-size: 35px;
+  line-height: 47px;
+  letter-spacing: 4.375px;
+  padding-top: 129px;
+  padding-bottom: 30px;
+}
+.sign__up-text {
+  font-family: Abel,  sans-serif;
+  color: #787878;
+  font-size: 26px;
+  line-height: 33px;
+  width: 412px;
+  height: 60px;
+  border: none;
+  padding: 0 45px;
+}
+.sign__up-btn {
+  background-color: #000;
+  color: #fff;
+}
+.sign__up-text:focus, .sign__up-text:active {
+  outline: none;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.bottom__article-rectangle {
+  width: 588px;
+  height: 386px;
+}
+.bottom__article-description {
+  width: 588px;
+  text-align: right;
+  padding-right: 60px;
+}
+.bottom__article-main {
+  text-align: right;
+  padding-right: 60px;
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-top: 93px;
+}
+
+.rectangle__box {
+  display: flex;
+}
+
+.bottom__article-main-left {
+  text-align: left;
+  padding-left: 60px;
+  font-size: 30px;
+  padding-bottom: 10px;
+  padding-top: 93px;
+}
+
+.bottom__article-description-left {
+  width: 588px;
+  text-align: left;
+  padding-left: 60px;
+}
+
+.bottom__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.footer {
+  background-color: #D8D8D8;
+  height: 445px;
+}
+
+.foot__item {
+  background-color: #fff;
+  margin-bottom: 50px;
+}
+
+.foot__inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.foot__link-img {
+  padding-top: 80px;
+  padding-bottom: 18px;
+}
+
+.foot__items {
+  padding-left: 130px;
+  width: 996px;
+  border-bottom: 1px solid #fff;
+}
+
+.foot__icons {
+  padding-top: 51px;
+  padding-bottom: 101px;
+  display: flex;
+}
+
+.icon {
+  padding-right: 65px;
+}
+
+.icon-one {
+  padding-left: 100px;
+}
